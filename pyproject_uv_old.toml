@@ -1,0 +1,22 @@
+[project]
+name = "aulearn25"
+version = "1.0.0"
+requires-python = ">=3.13"
+description = "Python Environment for Autonomous Learning course in 2025 from INS, CAU Kiel"
+authors = ["Nikita Smirnov <nsm@informatik.uni-kiel.de>", "Connor Schönberner <cos@informatik.uni-kiel.de>"]
+
+dependencies = [
+"protobuf==3.20.0",
+"pysc2",
+"numpy",
+"pandas",
+"gym>=0.26.0",
+"gymnasium",
+"scikit-learn",
+"seaborn",
+"matplotlib",
+"tensorboard",
+"torch-tb-profiler",
+"absl-py",
+"torch"
+]
